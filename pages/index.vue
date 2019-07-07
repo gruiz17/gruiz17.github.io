@@ -9,6 +9,10 @@
         size="lg"
       />&nbsp;&nbsp;Hello! I'm
       <span style="font-weight: 600">Gabriel Ruiz</span>.
+      (Do you want to 
+      <nuxt-link to="/projects">
+      see my projects?
+      </nuxt-link>)
     </div>
     <div class="description">
       <font-awesome-icon
@@ -25,7 +29,7 @@
     <div class="description">
       <font-awesome-icon :icon="['fab', 'vuejs']" size="lg" />&nbsp;&nbsp;My
       favorite is <span style="font-weight: 600">Vue.js</span>, though. In fact,
-      this page you're on now is built with it. I use it a lot in my work, along
+      this page you're on now is built with it (+the excellent <a href="https://nuxtjs.org/">Nuxt.js</a>)!<br> I use Vue.js a lot in my work, along
       with <span style="font-weight: 600">Vuex</span>.
     </div>
     <div class="description">
@@ -47,7 +51,7 @@
       <span style="font-weight: 600">long-distance running</span> and
       <span style="font-weight: 600">powerlifting</span> in particular.
     </div>
-    <hr style="width: 300px; margin-bottom: 16px;" />
+    <hr style="width: 300px; margin-bottom: 16px;" >
     <div class="social">
       <div style="margin-bottom: 16px;">
         <span style="font-weight: 600">Let's get in touch!</span> I'm on:
@@ -78,6 +82,7 @@ export default {
 <style scoped lang="scss">
 .home {
   width: 100%;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

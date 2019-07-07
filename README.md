@@ -1,6 +1,8 @@
-# gruiz17.github.io--nuxt
+# My Personal Website
 
-> Personal Website
+Finally! I've redone my personal website after telling myself I was going to for the last 3 years.
+
+Created with the very excellent [Nuxt.js](https://nuxtjs.org/).
 
 ## Build Setup
 

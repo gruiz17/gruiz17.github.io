@@ -1,10 +1,12 @@
 <template>
-  <div class="home">
+  <div class="projects">
     <div class="main-header">
       Projects.
     </div>
     <div>
-      Here's all the projects I've created over the years!
+      Here's all the projects I've created over the years! (Do you want to go
+      back to the (Do you want to go back to
+      <nuxt-link to="/">the general overview of Gabriel Ruiz?</nuxt-link>)
     </div>
     <Project
       v-for="project in projects"
@@ -35,14 +37,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
-html {
-  min-height: 2400px !important;
-}
-</style>
-
 <style scoped lang="scss">
-.home {
+.projects {
+  margin-top: 50px;
   width: 100%;
   display: flex;
   flex-direction: column;

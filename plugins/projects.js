@@ -1,5 +1,11 @@
 export const projects = [
   {
+    name: 'This site!',
+    date: 'July 2019',
+    sourceUrl: 'http://github.com/gruiz17/gruiz17.github.io',
+    description: 'Created a static personal page using Vue.js and Nuxt.js.'
+  },
+  {
     name: 'nquick',
     date: 'April 2015',
     sourceUrl: 'http://github.com/gruiz17/nquick',
@@ -15,7 +21,7 @@ export const projects = [
       'Utilized ClojureScript (Clojure compiled to JavaScript) to create a web-based memory game.'
   },
   {
-    name: 'k&uuml;nstler',
+    name: 'künstler',
     date: 'December 2014',
     sourceUrl: 'https://github.com/gruiz17/kunstler',
     description:
@@ -102,14 +108,6 @@ export const projects = [
     sourceUrl: 'https://github.com/gruiz17/weeknd3',
     description:
       'Fancy d3.js/SVG visuals set to The Weeknd\'s "Echoes of Silence."'
-  },
-  {
-    name: 'Personal Website v1',
-    date: 'December 2012-January 2013',
-    url: 'http://gabrielgruiz.herokuapp.com',
-    sourceUrl: 'https://github.com/gruiz17/gabrielgruiz',
-    description:
-      'Deployed to exercise Django knowledge when I got really sick over winter break. Includes a blog.'
   },
   {
     name: 'Ripple',

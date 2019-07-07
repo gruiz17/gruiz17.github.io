@@ -34,6 +34,6 @@ export default {
 <style>
 .project-name {
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 </style>

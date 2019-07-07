@@ -88,8 +88,23 @@ export default {
   align-items: center;
   justify-content: center;
   > div {
-    width: 400px;
+    max-width: 400px;
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .home {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > div {
+      width: 400px !important;
+      margin-bottom: 16px;
+    }
   }
 }
 

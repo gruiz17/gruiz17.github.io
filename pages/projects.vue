@@ -6,7 +6,9 @@
     <div>
       Here's all the projects I've created over the years! (Do you want to go
       back to the (Do you want to go back to
-      <nuxt-link to="/">the general overview of Gabriel Ruiz?</nuxt-link>)
+      <nuxt-link to="/">
+        the general overview of Gabriel Ruiz?
+      </nuxt-link>)
     </div>
     <Project
       v-for="project in projects"
@@ -46,8 +48,22 @@ export default {
   align-items: center;
   justify-content: center;
   > div {
-    width: 400px;
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .projects {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > div {
+      width: 400px;
+      margin-bottom: 16px;
+    }
   }
 }
 

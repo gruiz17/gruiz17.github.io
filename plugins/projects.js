@@ -1,9 +1,21 @@
 export const projects = [
   {
+    name: 'Poetry GraphQL API',
+    date: 'July 2019',
+    sourceUrl: 'http://github.com/gruiz17/poetry-graphql-api',
+    description: 'Used Ruby on Rails and GraphQL to create an API for poetry.'
+  },
+  {
     name: 'This site!',
     date: 'July 2019',
     sourceUrl: 'http://github.com/gruiz17/gruiz17.github.io',
     description: 'Created a static personal page using Vue.js and Nuxt.js.'
+  },
+  {
+    name: 'Instant Shakespeare',
+    date: 'April 2019',
+    sourceUrl: 'http://github.com/gruiz17/instant-shakespeare',
+    description: 'Created a cross-platform mobile app using Flutter/Dart and RxDart to fetch Shakespeare Sonnets.'
   },
   {
     name: 'nquick',

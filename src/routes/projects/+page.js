@@ -3,7 +3,7 @@ const projects = [
     name: 'This site!',
     date: 'July 2019-Present',
     sourceUrl: 'http://github.com/gruiz17/gruiz17.github.io',
-    description: 'Created a static personal page using Vue.js and Nuxt.js.'
+    description: 'Created a static personal page using Svelte and SvelteKit.'
   },
   {
     name: 'Poetry GraphQL API',

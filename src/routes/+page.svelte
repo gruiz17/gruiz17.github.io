@@ -25,10 +25,6 @@
     <a href="/projects">see my projects?</a>)
   </div>
   <div class="description">
-    <FontAwesomeIcon icon={faLinkedin} size="lg" />&nbsp;&nbsp;I currently work
-    for LinkedIn.
-  </div>
-  <div class="description">
     <FontAwesomeIcon icon={faJsSquare} size="lg" />&nbsp;&nbsp;I'm primarily a
     <span style="font-weight: 600">front-end developer</span>. I'm passionate
     about JavaScript and making good interfaces for users.
